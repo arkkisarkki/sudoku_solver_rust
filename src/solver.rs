@@ -209,13 +209,9 @@ impl Display for Solver {
 
 #[cfg(test)]
 mod tests {
-    use crate::{
-        solver::Solver,
-        sudoku::{Sudoku},
-    };
-    use std::collections::HashSet;
-
     use super::{FromCoordinates, Neighbors};
+    use crate::{solver::Solver, sudoku::Sudoku};
+    use std::collections::HashSet;
 
     #[test]
     fn test_possible() {

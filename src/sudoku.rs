@@ -45,7 +45,7 @@ pub struct Sudoku {
 #[derive(Debug, PartialEq, Eq, Hash, Clone)]
 pub struct Coordinates {
     pub row: usize,
-    pub column: usize
+    pub column: usize,
 }
 
 #[derive(Debug, PartialEq)]
